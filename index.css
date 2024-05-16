@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}@font-face {
+    font-family: myfont1;
+    src: url(Moon2.0-Light.otf);
+}
+@font-face {
+    font-family: myfont2;
+    src: url(Aquatico-Regular.otf);
+}
+@font-face {
+    font-family: myfont3;
+    src: url(CornDemo-Regular.ttf);
+}
+@font-face {
+    font-family: myfont4;
+    src: url(Spacema\ Regular\ \(Personal\ use\).ttf);
+}
+@font-face {
+    font-family: myfont5;
+    src: url(CalibreSuperCondensed-Regular.otf);
+}
+@font-face {
+    font-family: myfont6;
+    src: url(Celestia.otf);
+}
+
+body video{
+    height: 100vh;
+    width: 100vw;
+    scale: 1.15;
+}
+body button{display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* top:150px ;
+    left: 520px; */
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 120px;
+    z-index: 20;
+    font-family: myfont1;
+    animation: buttn 5s infinite  3s cubic-bezier(0.97,-0.44, 0.01, 1.36);
+}
+body button:hover{
+    cursor: pointer;
+}
+@keyframes buttn {
+
+    0%{
+        font-family: myfont1;
+    }
+    15%{
+        font-family: myfont2;
+    }
+    30%{
+        font-family: myfont3;
+    }
+    45%{
+        font-family: myfont4;
+    }
+    60%{
+        font-family: myfont2;
+    }
+    85%{
+        font-family: myfont6;
+    }
+    
+    
+}
